@@ -4,8 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <header class="head1">
+        <div><h1 class="h1">Calculator BMI</h1></div>
+       
+        
+    </header>
     
+    <main>  
+<!-- section 1 count -->
+     
+         <section class="sec1">
+              <form class="form1">
+                <div class="article">
+                    <p>Memiliki berat badan yang ideal selalu menjadi impian setiap orang. <br> untuk menghitung berat badan yang ideal tersebut kita butuh alat <br>yang bisa membantu kita.</p>
+                    <p>Kalkulator BMI dihadirkan untuk para pejuang sehat yang ingin memiliki <br>badan yang ideal. Silahkan Ikuti arahan yang ada dibawah ini.
+                    <h5>Silahkan pilih Jenis kelamin anda terlebih dahulu.</h5>
+                </div>
+                <div class="input-gen"> Jenis kelamin</div>
+                        <div class="gen">
+                            <input type="radio" id="selection-man">
+                            <label for="selection-man">Laki-laki</label>
+                            <input type="radio" id="selection-woman">
+                            <label for="selection-woman">Perempuan</label>
+                        </div>
+                        <div>
+                            <label for="weight">Berat Badan (Kg)</label><br>
+                            <input type="number" id="ctw">
+                        </div>
+                        <div>
+                            <label for="height">Tinggi Badan(Cm)</label><br>
+                            <input type="number" id="cth">
+                        </div>
+                        <div>
+                            <label for="age">Usia(Tahun)</label><br>
+                            <input type="number">
+                        </div>
+                        <div>
+                            <button class="count" id="countall">Hitung</button>
+                            <button class="reset" id="resetall">Reset</button>
+                        </div>
+                    </div>
+                <div >
+                    <h4 style="padding-left: 15px;">Keunggulan Fitur</h4>
+                    <ol>
+                        <li>Menghitung Berat Badan</li>
+                        <li>Menentukan Kategori Berat Badan</li>
+                        <li>Mempersiapkan Program Penurunan Berat Badan</li>
+                    </ol>
+                </div>   
+              </form>
+         </section>
+        
+
+        <!-- section 2 result -->
+        <section class="sec2">
+            <header class="h-2">
+                <h3>Result:</h3>
+            </header>
+            <div class="result">
+                <p>Berat Badan ideal Anda</p>
+                <h2 id="resultvalue"></h2>
+                <p>Selamat Berjuang !!</p>
+            </div>
+            <div>
+                <ul class="button1">
+                    <a href="" class="a-bt">Download</a>
+                    <a href="" class="a-bt">Share</a>
+                </ul>
+            </div>
+        </section>
+        <article></article>
+    </main>
+    <script src="./scripts.js"></script>
 </body>
 </html>
